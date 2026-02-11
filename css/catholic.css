@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+header {
+    width: 100%;
+    background: #faf5f5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 16px 28px;
+    align-items: center;
+
+}
+
+/* Logo */
+.img {
+    height: 52px;
+}
+
+/* Nav */
+.box-nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.box-nav a {
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* Donate */
+.donate  {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+
+}
+.donate a {
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.don-donate  {
+    background: #f71d1d;
+    color: #fff;
+    padding: 12px 26px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+.search {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* blue */
+.main {
+    width: 45%;
+    background: #0e6f8f;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    position: relative;
+    clip-path: ellipse(100% 100% at 0% 50%);
+     
+}
+
+.main h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* IMAGE */
+.aside {
+    width: 55%;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.container {
+    display: flex;
+}
